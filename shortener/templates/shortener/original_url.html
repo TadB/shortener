@@ -1,0 +1,7 @@
+{% extends "shortener/base.html" %}
+{% block content %}
+    <div class="alert alert-info">
+        This is shorten url.
+        <a href="{{ request.META.HTTP_HOST }}/{{ short }}">{{ request.META.HTTP_HOST }}/{{ short }}</a>
+    </div>
+{% endblock %}
