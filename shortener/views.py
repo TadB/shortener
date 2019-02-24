@@ -1,7 +1,6 @@
 import hashlib
 
 from django.shortcuts import render, redirect
-# from django.contrib.sites.models import Site
 from shortener.forms import SetUrlForm
 from shortener.models import Link
 
