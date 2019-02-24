@@ -14,7 +14,7 @@ def set_url(request):
             form.instance.short = url_hash
             form.save()
             return render(request, 'shortener/original_url.html',
-                          {'short_url': f'{request.get_host()}/{url_hash}'})
+                          {'short_url': url_hash, 'host': request.get_host()})
     else:
         form = SetUrlForm()
     return render(request, 'shortener/home.html', {'form': form})
