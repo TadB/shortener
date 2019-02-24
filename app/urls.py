@@ -21,4 +21,5 @@ from shortener import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.set_url, name='url-set'),
+    path('<str:short>/', views.go_to_original),
 ]

@@ -1,8 +1,9 @@
 import hashlib
 
-from django.shortcuts import render
-
+from django.shortcuts import render, redirect
+# from django.contrib.sites.models import Site
 from shortener.forms import SetUrlForm
+from shortener.models import Link
 
 
 def set_url(request):
@@ -18,3 +19,9 @@ def set_url(request):
     else:
         form = SetUrlForm()
     return render(request, 'shortener/home.html', {'form': form})
+
+
+def go_to_original(request, short):
+    original = Link.objects.get(short=short)
+    original_url = original.full_url
+    return redirect(original_url)
