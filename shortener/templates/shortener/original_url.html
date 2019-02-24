@@ -2,6 +2,6 @@
 {% block content %}
     <div class="alert alert-info">
             This is shorten url.
-            <a href="{{ request.META.HTTP_HOST }}/{{ short }}">{{ request.META.HTTP_HOST }}/{{ short }}</a>
+            <a href="{{ short_url }}">{{ short_url }}</a>
         </div>
 {% endblock %}

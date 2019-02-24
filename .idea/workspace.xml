@@ -3,11 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="2e4a7f63-3fc5-4373-9df5-a1210b0c7917" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shortener/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/shortener/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shortener/templates/shortener/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/shortener/templates/shortener/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shortener/templates/shortener/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/shortener/templates/shortener/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shortener/templates/shortener/original_url.html" beforeDir="false" afterPath="$PROJECT_DIR$/shortener/templates/shortener/original_url.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shortener/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/shortener/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,8 +20,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+            <state relative-caret-position="360">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <element signature="e#627#659#0" expanded="true" />
               </folding>
@@ -32,11 +29,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/shortener/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="16" column="46" lean-forward="true" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
+            <state relative-caret-position="380">
+              <caret line="19" column="65" lean-forward="true" selection-start-line="19" selection-start-column="65" selection-end-line="19" selection-end-column="65" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
               </folding>
@@ -44,11 +41,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shortener/templates/shortener/original_url.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+            <state relative-caret-position="60">
+              <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -65,8 +62,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shortener/templates/shortener/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20">
-              <caret line="1" column="28" lean-forward="true" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+            <state relative-caret-position="100">
+              <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -92,8 +89,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shortener/forms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="5" column="34" lean-forward="true" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+            <state relative-caret-position="220">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
               </folding>
@@ -125,13 +122,13 @@
         <option value="$PROJECT_DIR$/shortener/templates/shortener/get_url.html" />
         <option value="$PROJECT_DIR$/shortener/admin.py" />
         <option value="$PROJECT_DIR$/app/urls.py" />
-        <option value="$PROJECT_DIR$/shortener/views.py" />
         <option value="$PROJECT_DIR$/shortener/models.py" />
         <option value="$PROJECT_DIR$/app/README.md" />
         <option value="$PROJECT_DIR$/shortener/templates/shortener/base.html" />
         <option value="$PROJECT_DIR$/app/settings.py" />
         <option value="$PROJECT_DIR$/shortener/templates/shortener/home.html" />
         <option value="$PROJECT_DIR$/shortener/forms.py" />
+        <option value="$PROJECT_DIR$/shortener/views.py" />
         <option value="$PROJECT_DIR$/shortener/templates/shortener/original_url.html" />
       </list>
     </option>
@@ -252,12 +249,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1551028575385</updated>
-      <workItem from="1551028576850" duration="15796000" />
+      <workItem from="1551028576850" duration="16716000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15796000" />
+    <option name="totallyTimeSpent" value="16716000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="2" width="1920" height="1078" extended-state="6" />
@@ -359,30 +356,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/urls.py">
+    <entry file="file://$PROJECT_DIR$/shortener/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
-          <folding>
-            <element signature="e#627#659#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shortener/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="16" column="46" lean-forward="true" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shortener/templates/shortener/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="1" column="28" lean-forward="true" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+        <state relative-caret-position="120">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
@@ -393,27 +370,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shortener/models.py">
+    <entry file="file://$PROJECT_DIR$/shortener/templates/shortener/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="100">
+          <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/shortener/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="34" lean-forward="true" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+        <state relative-caret-position="220">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
           <folding>
             <element signature="e#0#24#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#627#659#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/shortener/templates/shortener/original_url.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+        <state relative-caret-position="60">
+          <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shortener/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="19" column="65" lean-forward="true" selection-start-line="19" selection-start-column="65" selection-end-line="19" selection-end-column="65" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
