@@ -1,9 +1,10 @@
 {% extends "shortener/base.html" %}
+{% load crispy_forms_tags %}
 {% block content %}
     <legend class="border-bottom mb-4">Input URL here</legend>
     <form method="POST" class="inline">{% csrf_token %}
-        {{ form }}
-        <button type="submit" class="btn btn-outline-info">Save</button>
+        {{ form|crispy }}
+        <button type="submit" class="btn btn-outline-info">Convert</button>
     </form>
 
 {% endblock %}
