@@ -11,3 +11,6 @@ Anonymous users can run in browser address bar: '<domain-name>/\<short url>' and
 ## Data Base Model:
 1. Only full_url field has to be unique. Short field is SHA-256 hash, any collisions haven't been found yet.
 2. SHA-256 in hex number has 64 characters, so short field is limited to max_length 64.
+
+## App preview
+https://taskinterview.pythonanywhere.com/
